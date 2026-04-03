@@ -1,43 +1,129 @@
-nav ul {
-    list-style: none;
-    display: flex;
-    gap:20px
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav a {
-    text-decoration: none;
-    color: #2e2e2e;
-    font-weight: 500;
+/* BASE */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5efe6;
+  color: #2e2e2e;
+  line-height: 1.6;
 }
 
-nav a:hover {
+/* NAV */
+header {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #f5efe6;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+
+.nav a:hover {
   color: #a68c6d;
 }
 
-/*HERO*/
+/* HERO */
 .hero {
   text-align: center;
-  padding: 80px 20px;
-  background: linear-gradient(to bottom, #f5efe6, #ebe3d5);
+  padding: 60px 20px;
 }
 
+/* IMMAGINE HERO */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  width: 900px;
+  max-width: 90%;    
+  height: auto;
+  object-fit: contain;
+}
+
+/* TESTI HERO */
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
 }
 
-.hero p {margin-bottom: 20px;
+.hero p {
+  margin-bottom: 20px;
+  color: #555;
 }
 
+/* BUTTON */
 .hero button {
   padding: 10px 20px;
   border: none;
   background: #a68c6d;
   color: white;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.hero button:hover {
-  background: #8c7358;
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.section p {
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+  background: #2e2e2e;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.social {
+  margin: 10px 0;
+}
+
+.social a {
+  color: #d8c3a5;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
+
+.quote {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.copy {
+  margin-top: 10px;
+  font-size: 0.9rem;
 }
