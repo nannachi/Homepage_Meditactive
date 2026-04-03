@@ -1,0 +1,43 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap:20px
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 500;
+}
+
+nav a:hover {
+  color: #a68c6d;
+}
+
+/*HERO*/
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #f5efe6, #ebe3d5);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: #a68c6d;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #8c7358;
+}
